@@ -151,7 +151,7 @@ Run the driver to get temperature readings:
 ## Output Example
 
 ```
-Current Temperature: 24
+Current Temperature : 32 Celsius, 89 Fahrenheit
 ```
 
 ## Unit Testing
