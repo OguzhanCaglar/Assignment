@@ -200,6 +200,13 @@ Run the compiled program as root (or with sufficient privileges):
 sudo ./network_sniffer
 ```
 
+## Output Example
+
+```c
+MAC Addresses: 00:0c:29:55:c4:1b -> 00:50:56:f6:ae:6f, IP Addresses: 192.168.244.129 -> 192.168.244.129
+MAC Addresses: 00:50:56:f6:ae:6f -> 00:0c:29:55:c4:1b, IP Addresses: 8.8.8.8 -> 8.8.8.8
+```
+
 ### Program Explanation
 
 - **Header Files**: 
