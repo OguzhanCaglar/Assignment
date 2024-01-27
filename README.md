@@ -20,7 +20,8 @@ This Linux kernel module simulates a virtual temperature sensor as a character d
 #include <linux/random.h>
 #include <linux/device.h>
 
-#define mDeviceName "virtual_temp_sensor"
+#define mDeviceName                 "virtual_temp_sensor"
+#define mCommandFahrenheit          _IOR('k', 1, int)
 ```
 
 ### 2. Global Variables and Structures
